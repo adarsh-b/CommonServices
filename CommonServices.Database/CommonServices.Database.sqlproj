@@ -86,6 +86,12 @@
     <None Include="Common\Stored Procedures\DoNotDelete.txt" />
     <None Include="FeeSchedule\User Defined Types\DoNotDelete.txt" />
     <None Include="FeeSchedule\Functions\DoNotDelete.txt" />
+    <None Include="CommonServices.Database.publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DeployDatabase.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

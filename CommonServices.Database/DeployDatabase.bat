@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\Microsoft SQL Server\140\DAC\bin\sqlpackage.exe" /action:Publish /sourceFile:"C:\Projects\CommonServices\CommonServices.Database\bin\Debug\CommonServices.Database.dacpac" /targetconnectionstring:"Data Source=ServerName;Initial Catalog=CommonServices;Persist Security Info=False;User ID=UserName;password=Password;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True" > DataBaseDeploymentLog.txt
+
+set /p=Hit ENTER to continue...
