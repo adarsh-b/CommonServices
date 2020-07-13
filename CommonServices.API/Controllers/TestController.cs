@@ -12,6 +12,9 @@ namespace CommonServices.API.Controllers
         [HttpGet]
         public string Method1([FromUri] string param)
         {
+            // var handler = new JwtSecurityTokenHandler();
+            //var jwtSecurityToken = handler.ReadJwtToken(accessToken);
+            //var tokenClaims = jwtSecurityToken.Claims;
             return "Your parameter value is: " + param;
         }
 
